@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold">
-          有1吗{' '}
+          Click to {' '}
           <Link href="/login">
             <a className="text-blue-600" href="https://nextjs.org">
               /login
