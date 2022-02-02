@@ -27,7 +27,7 @@ const Login: FunctionComponent<Props> = (props) => {
       password,
     }
     axios
-      .post('http://localhost:8080/login', loginInfo)
+      .post('/api/login', loginInfo)
       .then((res) => {
         if (res.status === 200) {
           const user = res.data.user
